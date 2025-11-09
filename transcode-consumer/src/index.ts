@@ -26,7 +26,7 @@ const ecsClient = new ECSClient({
   },
 });
 const queueUrl =
-  "https://sqs.us-east-1.amazonaws.com/725523420264/transcode-queue";
+  "";
 
 async function init() {
   const params = {
